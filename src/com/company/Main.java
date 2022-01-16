@@ -8,7 +8,7 @@ public class Main {
         if (n>2){
             return Fibonacci(n-1)+Fibonacci(n-2);
         }else{
-            return n;
+            return 1*n;
         }
     }
 }
